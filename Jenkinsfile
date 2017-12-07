@@ -1,4 +1,5 @@
 properties([[$class: 'GithubProjectProperty', displayName: '', projectUrlStr: 'https://github.com/vasuramisetti/task5git.git/'], pipelineTriggers([githubPush()])])
+
 pipeline {
     agent any 
 
